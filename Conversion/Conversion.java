@@ -11,22 +11,16 @@ public class Conversion {
 
         System.out.println("Bonjour veuillez entrer une température en degrés Fahrenheit :");
 
-        try {
-            Scanner sc = new Scanner(System.in);
-            
-            i = sc.nextFloat();
+        Scanner sc = new Scanner(System.in);
 
-            sc.close();
-            System.out.println("la température de " + i + " ° Fahrenheit correspond à ");
-            i = i - 32;
-            i = i * 5;
-            i = i / 9;
-            System.out.println(i + " ° Celsius ! ");
+        i = sc.nextFloat();
 
-        } catch (NumberFormatException e) {
-            System.out.println("Format incorrect");
-            System.exit(0);
-        }
+        sc.close();
+        System.out.println("la température de " + i + " ° Fahrenheit correspond à ");
+        i = i - 32;
+        i = i * 5;
+        i = i / 9;
+        System.out.println(i + " ° Celsius ! ");
 
     }
 }
