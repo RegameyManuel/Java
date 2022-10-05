@@ -6,7 +6,7 @@ public class Voyelle {
 
     public static void main(String[] args) {
         int i, j = 0;
-        String str, aei = "aeiouy";
+        String str, aei = "åaeiouyäëïöüÿâêîôûŷàèéìòùỳÅAEIOUYÄËÏÖÜŸÂÊÎÔÛŶÀÉÈÌÒÙỲ";
 
         Scanner sc = new Scanner(System.in);
 
